@@ -1,8 +1,6 @@
-modulegithub.com/clubpay-pos-worker/lingua-go
+module github.com/clubpay-pos-worker/lingua-go
 
-go 1.21
-
-toolchain go1.22.0
+go 1.20
 
 require (
 	github.com/shopspring/decimal v1.4.0
