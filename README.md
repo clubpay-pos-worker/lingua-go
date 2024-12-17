@@ -1,13 +1,14 @@
 <div align="center">
 
-  ![lingua](https://raw.githubusercontent.com/pemistahl/lingua-go/main/cmd/images/logo.png)
-  
-  [![Build Status](https://github.com/pemistahl/lingua-go/workflows/build/badge.svg?branch=main)](https://github.com/pemistahl/lingua-go/actions?query=workflow%3A%22build%22+branch%3Amain)
-  [![codecov](https://codecov.io/gh/pemistahl/lingua-go/branch/main/graph/badge.svg)](https://codecov.io/gh/pemistahl/lingua-go)
-  [![supported languages](https://img.shields.io/badge/supported%20languages-75-green.svg)](#3-which-languages-are-supported)
-  [![Go Reference](https://pkg.go.dev/badge/github.com/pemistahl/lingua-go.svg)](https://pkg.go.dev/github.com/pemistahl/lingua-go)
-  [![Go Report Card](https://goreportcard.com/badge/github.com/pemistahl/lingua-go)](https://goreportcard.com/report/github.com/pemistahl/lingua-go)
-  [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+![lingua](https://raw.githubusercontent.com/pemistahl/lingua-go/main/cmd/images/logo.png)
+
+[![Build Status](https://github.com/clubpay-pos-worker/lingua-go/workflows/build/badge.svg?branch=main)](https://github.com/clubpay-pos-worker/lingua-go/actions?query=workflow%3A%22build%22+branch%3Amain)
+[![codecov](https://codecov.io/gh/pemistahl/lingua-go/branch/main/graph/badge.svg)](https://codecov.io/gh/pemistahl/lingua-go)
+[![supported languages](https://img.shields.io/badge/supported%20languages-75-green.svg)](#3-which-languages-are-supported)
+[![Go Reference](https://pkg.go.dev/badge/github.com/clubpay-pos-worker/lingua-go.svg)](https://pkg.go.dev/github.com/clubpay-pos-worker/lingua-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/clubpay-pos-worker/lingua-go)](https://goreportcard.com/report/github.com/clubpay-pos-worker/lingua-go)
+[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 </div>
 
 <br>
@@ -28,7 +29,7 @@ functionality of those systems or don't want to learn the ropes of those,
 a small flexible library comes in handy.
 
 So far, the only other comprehensive open source library in the Go ecosystem for
-this task is [*Whatlanggo*](https://github.com/abadojack/whatlanggo).
+this task is [_Whatlanggo_](https://github.com/abadojack/whatlanggo).
 Unfortunately, it has two major drawbacks:
 
 1. Detection only works with quite lengthy text fragments. For very short text snippets
@@ -36,7 +37,7 @@ Unfortunately, it has two major drawbacks:
 2. The more languages take part in the decision process, the less accurate are the
    detection results.
 
-*Lingua* aims at eliminating these problems. She nearly does not need any configuration and
+_Lingua_ aims at eliminating these problems. She nearly does not need any configuration and
 yields pretty accurate results on both long and short text, even on single words and phrases.
 She draws on both rule-based and statistical methods but does not use any dictionaries of words.
 She does not need a connection to any external API or service either.
@@ -44,113 +45,113 @@ Once the library has been downloaded, it can be used completely offline.
 
 ## 3. Which languages are supported?
 
-Compared to other language detection libraries, *Lingua's* focus is on *quality over quantity*, that is,
+Compared to other language detection libraries, _Lingua's_ focus is on _quality over quantity_, that is,
 getting detection right for a small set of languages first before adding new ones.
 Currently, the following 75 languages are supported:
 
 - A
-    - Afrikaans
-    - Albanian
-    - Arabic
-    - Armenian
-    - Azerbaijani
+  - Afrikaans
+  - Albanian
+  - Arabic
+  - Armenian
+  - Azerbaijani
 - B
-    - Basque
-    - Belarusian
-    - Bengali
-    - Norwegian Bokmal
-    - Bosnian
-    - Bulgarian
+  - Basque
+  - Belarusian
+  - Bengali
+  - Norwegian Bokmal
+  - Bosnian
+  - Bulgarian
 - C
-    - Catalan
-    - Chinese
-    - Croatian
-    - Czech
+  - Catalan
+  - Chinese
+  - Croatian
+  - Czech
 - D
-    - Danish
-    - Dutch
+  - Danish
+  - Dutch
 - E
-    - English
-    - Esperanto
-    - Estonian
+  - English
+  - Esperanto
+  - Estonian
 - F
-    - Finnish
-    - French
+  - Finnish
+  - French
 - G
-    - Ganda
-    - Georgian
-    - German
-    - Greek
-    - Gujarati
+  - Ganda
+  - Georgian
+  - German
+  - Greek
+  - Gujarati
 - H
-    - Hebrew
-    - Hindi
-    - Hungarian
+  - Hebrew
+  - Hindi
+  - Hungarian
 - I
-    - Icelandic
-    - Indonesian
-    - Irish
-    - Italian
+  - Icelandic
+  - Indonesian
+  - Irish
+  - Italian
 - J
-    - Japanese
+  - Japanese
 - K
-    - Kazakh
-    - Korean
+  - Kazakh
+  - Korean
 - L
-    - Latin
-    - Latvian
-    - Lithuanian
+  - Latin
+  - Latvian
+  - Lithuanian
 - M
-    - Macedonian
-    - Malay
-    - Maori
-    - Marathi
-    - Mongolian
+  - Macedonian
+  - Malay
+  - Maori
+  - Marathi
+  - Mongolian
 - N
-    - Norwegian Nynorsk
+  - Norwegian Nynorsk
 - P
-    - Persian
-    - Polish
-    - Portuguese
-    - Punjabi
+  - Persian
+  - Polish
+  - Portuguese
+  - Punjabi
 - R
-    - Romanian
-    - Russian
+  - Romanian
+  - Russian
 - S
-    - Serbian
-    - Shona
-    - Slovak
-    - Slovene
-    - Somali
-    - Sotho
-    - Spanish
-    - Swahili
-    - Swedish
+  - Serbian
+  - Shona
+  - Slovak
+  - Slovene
+  - Somali
+  - Sotho
+  - Spanish
+  - Swahili
+  - Swedish
 - T
-    - Tagalog
-    - Tamil
-    - Telugu
-    - Thai
-    - Tsonga
-    - Tswana
-    - Turkish
+  - Tagalog
+  - Tamil
+  - Telugu
+  - Thai
+  - Tsonga
+  - Tswana
+  - Turkish
 - U
-    - Ukrainian
-    - Urdu
+  - Ukrainian
+  - Urdu
 - V
-    - Vietnamese
+  - Vietnamese
 - W
-    - Welsh
+  - Welsh
 - X
-    - Xhosa
+  - Xhosa
 - Y
-    - Yoruba
+  - Yoruba
 - Z
-    - Zulu
+  - Zulu
 
 ## 4. How good is it?
 
-*Lingua* is able to report accuracy statistics for some bundled test data available for each
+_Lingua_ is able to report accuracy statistics for some bundled test data available for each
 supported language. The test data for each language is split into three parts:
 
 1. a list of single words with a minimum length of 5 characters
@@ -164,11 +165,11 @@ million sentences. For testing, corpora made of arbitrarily chosen websites have
 each comprising ten thousand sentences. From each test corpus, a random unsorted subset of
 1000 single words, 1000 word pairs and 1000 sentences has been extracted, respectively.
 
-Given the generated test data, I have compared the detection results of *Lingua* and *Whatlanggo*
-running over the data of *Lingua's* supported 75 languages. Additionally, I have added Google's 
-[CLD3](https://github.com/google/cld3/) to the comparison with the help of the 
+Given the generated test data, I have compared the detection results of _Lingua_ and _Whatlanggo_
+running over the data of _Lingua's_ supported 75 languages. Additionally, I have added Google's
+[CLD3](https://github.com/google/cld3/) to the comparison with the help of the
 [gocld3](https://github.com/jmhodges/gocld3) bindings. Languages that are not supported
-by *CLD3* or *Whatlanggo* are simply ignored during the detection process.
+by _CLD3_ or _Whatlanggo_ are simply ignored during the detection process.
 
 Each of the following sections contains two plots. The bar plot shows the detailed accuracy
 results for each supported language. The box plot illustrates the distributions of the
@@ -1767,10 +1768,10 @@ Every language detector uses a probabilistic [n-gram](https://en.wikipedia.org/w
 character distribution in some training corpus. Most libraries only use n-grams of size 3 (trigrams) which is
 satisfactory for detecting the language of longer text fragments consisting of multiple sentences. For short
 phrases or single words, however, trigrams are not enough. The shorter the input text is, the less n-grams are
-available. The probabilities estimated from such few n-grams are not reliable. This is why *Lingua* makes use
+available. The probabilities estimated from such few n-grams are not reliable. This is why _Lingua_ makes use
 of n-grams of sizes 1 up to 5 which results in much more accurate prediction of the correct language.
 
-A second important difference is that *Lingua* does not only use such a statistical model, but also a rule-based
+A second important difference is that _Lingua_ does not only use such a statistical model, but also a rule-based
 engine. This engine first determines the alphabet of the input text and searches for characters which are unique
 in one or more languages. If exactly one language can be reliably chosen this way, the statistical model is not
 necessary anymore. In any case, the rule-based engine filters out languages that do not satisfy the conditions
@@ -1790,11 +1791,11 @@ and all languages by doing:
     cd cmd
     go run accuracy_reporter.go
 
-For *gocld3* to run successfully, you need to install the exact 
+For _gocld3_ to run successfully, you need to install the exact
 [version 3.17.3](https://github.com/protocolbuffers/protobuf/releases/tag/v3.17.3) of Google's protocol buffers which is a bit
 unfortunate. For each detector and language, a test report file is then written into
-[`/accuracy-reports`](https://github.com/pemistahl/lingua-go/tree/main/cmd/accuracy-reports).
-As an example, here is the current output of the *Lingua* German report:
+[`/accuracy-reports`](https://github.com/clubpay-pos-worker/lingua-go/tree/main/cmd/accuracy-reports).
+As an example, here is the current output of the _Lingua_ German report:
 
 ```
 ##### German #####
@@ -1816,14 +1817,14 @@ Erroneously classified as Dutch: 0.20%, Latin: 0.10%
 
 ## 7. How to add it to your project?
 
-    go get github.com/pemistahl/lingua-go
+    go get github.com/clubpay-pos-worker/lingua-go
 
 ## 8. How to build?
 
-*Lingua* requires at least Go version 1.18.
+_Lingua_ requires at least Go version 1.18.
 
 ```
-git clone https://github.com/pemistahl/lingua-go.git
+git clone https://github.com/clubpay-pos-worker/lingua-go.git
 cd lingua-go
 go build
 ```
@@ -1841,7 +1842,7 @@ package main
 
 import (
     "fmt"
-    "github.com/pemistahl/lingua-go"
+    "github.com/clubpay-pos-worker/lingua-go"
 )
 
 func main() {
@@ -1866,9 +1867,9 @@ func main() {
 
 ### 9.2 Minimum relative distance
 
-By default, *Lingua* returns the most likely language for a given input text. However, there are
-certain words that are spelled the same in more than one language. The word *prologue*, for
-instance, is both a valid English and French word. *Lingua* would output either English or
+By default, _Lingua_ returns the most likely language for a given input text. However, there are
+certain words that are spelled the same in more than one language. The word _prologue_, for
+instance, is both a valid English and French word. _Lingua_ would output either English or
 French which might be wrong in the given context. For cases like that, it is possible to
 specify a minimum relative distance that the logarithmized and summed up probabilities for
 each possible language have to satisfy. It can be stated in the following way:
@@ -1878,7 +1879,7 @@ package main
 
 import (
     "fmt"
-    "github.com/pemistahl/lingua-go"
+    "github.com/clubpay-pos-worker/lingua-go"
 )
 
 func main() {
@@ -1908,7 +1909,7 @@ func main() {
 Be aware that the distance between the language probabilities is dependent on the length of the
 input text. The longer the input text, the larger the distance between the languages. So if you
 want to classify very short text phrases, do not set the minimum relative distance too high.
-Otherwise [`Unknown`](https://github.com/pemistahl/lingua-go/blob/main/language.go#L107) will be
+Otherwise [`Unknown`](https://github.com/clubpay-pos-worker/lingua-go/blob/main/language.go#L107) will be
 returned most of the time as in the example above. This is the return value for cases where
 language detection is not reliably possible. This value is not meant to be included in the set
 of input languages when building the language detector. If you include it, it will be
@@ -1925,7 +1926,7 @@ package main
 
 import (
     "fmt"
-    "github.com/pemistahl/lingua-go"
+    "github.com/clubpay-pos-worker/lingua-go"
 )
 
 func main() {
@@ -1954,12 +1955,12 @@ func main() {
 }
 ```
 
-In the example above, a slice of 
-[`ConfidenceValue`](https://github.com/pemistahl/lingua-go/blob/main/confidence.go#L21) 
-is returned containing all possible languages sorted by their confidence value in descending 
-order. Each value is a probability between 0.0 and 1.0. The probabilities of all languages 
+In the example above, a slice of
+[`ConfidenceValue`](https://github.com/clubpay-pos-worker/lingua-go/blob/main/confidence.go#L21)
+is returned containing all possible languages sorted by their confidence value in descending
+order. Each value is a probability between 0.0 and 1.0. The probabilities of all languages
 will sum to 1.0. If the language is unambiguously identified by the rule engine, the value 1.0
-will always be returned for this language. The other languages will receive a value of 0.0. 
+will always be returned for this language. The other languages will receive a value of 0.0.
 
 There is also a method for returning the confidence value for one specific language only:
 
@@ -1978,7 +1979,7 @@ this detector instance, the value 0.0 will always be returned.
 
 ### 9.4 Eager loading versus lazy loading
 
-By default, *Lingua* uses lazy-loading to load only those language models on demand which are
+By default, _Lingua_ uses lazy-loading to load only those language models on demand which are
 considered relevant by the rule-based filter engine. For web services, for instance, it is
 rather beneficial to preload all language models into memory to avoid unexpected latency while
 waiting for the service response. If you want to enable the eager-loading mode, you can do it
@@ -1996,11 +1997,11 @@ accessed asynchronously by the instances.
 
 ### 9.5 Low accuracy mode versus high accuracy mode
 
-*Lingua's* high detection accuracy comes at the cost of being noticeably slower
+_Lingua's_ high detection accuracy comes at the cost of being noticeably slower
 than other language detectors. The large language models also consume significant
 amounts of memory. These requirements might not be feasible for systems running low
 on resources. If you want to classify mostly long texts or need to save resources,
-you can enable a *low accuracy mode* that loads only a small subset of the language
+you can enable a _low accuracy mode_ that loads only a small subset of the language
 models into memory:
 
 ```go
@@ -2016,7 +2017,7 @@ texts which are longer than 120 characters will remain mostly unaffected.
 
 In high accuracy mode (the default), the language detector consumes approximately
 1,800 MB of memory if all language models are loaded. In low accuracy mode, memory
-consumption is reduced to approximately 110 MB. The goal is to further reduce memory 
+consumption is reduced to approximately 110 MB. The goal is to further reduce memory
 consumption in later releases.
 
 An alternative for a smaller memory footprint and faster performance is to reduce the set
@@ -2027,7 +2028,7 @@ or unlikely to occur.
 
 ### 9.6 Detection of multiple languages in mixed-language texts
 
-In contrast to most other language detectors, *Lingua* is able to detect multiple languages 
+In contrast to most other language detectors, _Lingua_ is able to detect multiple languages
 in mixed-language texts. This feature can yield quite reasonable results but it is still
 in an experimental state and therefore the detection result is highly dependent on the input
 text. It works best in high-accuracy mode with multiple long words for each language.
@@ -2041,7 +2042,7 @@ package main
 
 import (
     "fmt"
-    "github.com/pemistahl/lingua-go"
+    "github.com/clubpay-pos-worker/lingua-go"
 )
 
 func main() {
@@ -2055,7 +2056,7 @@ func main() {
         FromLanguages(languages...).
         Build()
 
-    sentence := "Parlez-vous français? " + 
+    sentence := "Parlez-vous français? " +
         "Ich spreche Französisch nur ein bisschen. " +
         "A little bit is better than nothing."
 
@@ -2070,14 +2071,14 @@ func main() {
 }
 ```
 
-In the example above, a slice of [`DetectionResult`](https://github.com/pemistahl/lingua-go/blob/main/result.go#L22)
+In the example above, a slice of [`DetectionResult`](https://github.com/clubpay-pos-worker/lingua-go/blob/main/result.go#L22)
 is returned. Each entry in the slice describes a contiguous single-language text section,
 providing start and end indices of the respective substring.
 
 ### 9.7 Methods to build the LanguageDetector
 
 There might be classification tasks where you know beforehand that your language data is
-definitely not written in Latin, for instance. The detection accuracy can become better 
+definitely not written in Latin, for instance. The detection accuracy can become better
 in such cases if you exclude certain languages from the decision process or just
 explicitly include relevant languages:
 
@@ -2106,10 +2107,10 @@ lingua.NewLanguageDetectorBuilder().FromIsoCodes639_3(lingua.ENG, lingua.DEU)
 
 ## 10. What's next for version 1.5.0?
 
-Take a look at the [planned issues](https://github.com/pemistahl/lingua-go/milestone/6).
+Take a look at the [planned issues](https://github.com/clubpay-pos-worker/lingua-go/milestone/6).
 
 ## 11. Contributions
 
-Any contributions to *Lingua* are very much appreciated. Please read the instructions
-in [`CONTRIBUTING.md`](https://github.com/pemistahl/lingua-go/blob/main/CONTRIBUTING.md)
+Any contributions to _Lingua_ are very much appreciated. Please read the instructions
+in [`CONTRIBUTING.md`](https://github.com/clubpay-pos-worker/lingua-go/blob/main/CONTRIBUTING.md)
 for how to add new languages to the library.

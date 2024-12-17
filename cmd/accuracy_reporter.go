@@ -18,9 +18,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/abadojack/whatlanggo"
-	"github.com/jmhodges/gocld3/cld3"
-	"github.com/pemistahl/lingua-go"
 	"math"
 	"math/big"
 	"os"
@@ -29,6 +26,10 @@ import (
 	"strings"
 	"time"
 	"unicode/utf8"
+
+	"github.com/abadojack/whatlanggo"
+	"github.com/clubpay-pos-worker/lingua-go"
+	"github.com/jmhodges/gocld3/cld3"
 )
 
 var zero = big.NewRat(0, 1)

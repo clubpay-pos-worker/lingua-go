@@ -21,13 +21,14 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/pemistahl/lingua-go/serialization"
-	"google.golang.org/protobuf/proto"
 	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
 	"strings"
+
+	"github.com/clubpay-pos-worker/lingua-go/serialization"
+	"google.golang.org/protobuf/proto"
 )
 
 // CreateAndWriteLanguageModelFiles creates language model files for
