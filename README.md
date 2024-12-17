@@ -1817,7 +1817,7 @@ Erroneously classified as Dutch: 0.20%, Latin: 0.10%
 
 ## 7. How to add it to your project?
 
-    go get github.com/clubpay-pos-worker/lingua-go
+    go getgithub.com/clubpay-pos-worker/lingua-go
 
 ## 8. How to build?
 

@@ -1,4 +1,4 @@
-module github.com/clubpay-pos-worker/lingua-go
+modulegithub.com/clubpay-pos-worker/lingua-go
 
 go 1.21
 

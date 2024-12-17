@@ -1,4 +1,4 @@
-module github.com/clubpay-pos-worker/lingua-go/cmd
+modulegithub.com/clubpay-pos-worker/lingua-go/cmd
 
 go 1.18
 
@@ -14,4 +14,4 @@ require (
 	google.golang.org/protobuf v1.31.0 // indirect
 )
 
-replace github.com/clubpay-pos-worker/lingua-go => ../
+replacegithub.com/clubpay-pos-worker/lingua-go => ../
